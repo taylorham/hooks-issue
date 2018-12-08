@@ -1,13 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-import ExampleComponent from 'hooks-issue'
+import HookExample from 'hooks-issue'
 
-export default class App extends Component {
-  render () {
-    return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
-      </div>
-    )
-  }
+export default function App() {
+  // const [value, setValue] = React.useState('')
+  // const handleChange = e => setValue(e.target.value)
+
+  return (
+    // <React.Fragment>
+    //   <input type="text" value={value} onChange={handleChange} />
+    //   text = {value}
+    // </React.Fragment>
+    <HookExample />
+  )
 }
