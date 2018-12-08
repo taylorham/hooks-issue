@@ -1,0 +1,8 @@
+{
+  "short_name": "hooks-issue",
+  "name": "hooks-issue",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
